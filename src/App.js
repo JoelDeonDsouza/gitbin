@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import Logo from "./compnents/logo";
-import Profile from "./compnents/profile";
+import Nav from "./compnents/Nav/nav";
+import Logo from "./compnents/Logo/logo";
+import ProfileSearch from "./compnents/ProfileSearch/profile";
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Logo />
-      <Profile />
+      <ProfileSearch />
     </div>
   );
 }

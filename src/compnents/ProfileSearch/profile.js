@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./profile.css";
-import Users from "./users";
+import Users from "../Users/users";
 
-const Profile = () => {
+const ProfileSearch = () => {
   const [data, setData] = useState({});
   const [userName, setUserName] = useState("");
   const [repos, setRepos] = useState([]);
@@ -49,4 +49,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default ProfileSearch;
