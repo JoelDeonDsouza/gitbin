@@ -1,0 +1,23 @@
+.searchBar {
+  width: 38%;
+  height: 35px;
+  border-radius: 50px;
+  border-width: 0.4rem;
+  border-block-color: #8241f9;
+  font-size: larger;
+  background-color: #010409;
+  color: #fff;
+  text-align: center;
+}
+.btn {
+  margin-top: 20px;
+}
+.btnText {
+  width: 12%;
+  height: 38px;
+  font-size: large;
+  font-weight: bolder;
+  color: #fff;
+  background-color: #8241f9;
+  border-radius: 6px;
+}
