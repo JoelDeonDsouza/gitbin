@@ -17,18 +17,14 @@ const ProfileSearch = () => {
     //User Data
     const profile = await fetch(`https://api.github.com/users/${userName}`);
     const profileRaw = await profile.json();
-    console.log(profileRaw);
+    setData(profileRaw);
 
     //User Repo Data
     const repos = await fetch(profileRaw.repos_url);
     const reposRaw = await repos.json();
-    console.log(reposRaw);
-
-    if (profileRaw) {
-      setData(profileRaw);
-      setRepos(reposRaw);
-    }
+    setRepos(reposRaw);
   };
+  const { name, message } = data;
   return (
     <div>
       <input
@@ -44,7 +40,8 @@ const ProfileSearch = () => {
           Search
         </button>
       </div>
-      <Users data={data} repos={repos} />
+      {name && <Users data={data} repos={repos} />}
+      {message && <p className="error">{message}</p>}
     </div>
   );
 };

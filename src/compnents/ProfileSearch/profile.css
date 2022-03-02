@@ -21,3 +21,9 @@
   background-color: #8241f9;
   border-radius: 6px;
 }
+
+.error {
+  color: #fff;
+  font-size: larger;
+  font-weight: bolder;
+}
