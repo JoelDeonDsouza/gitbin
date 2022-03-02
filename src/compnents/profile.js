@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./profile.css";
+import Users from "./users";
 
 const Profile = () => {
   const [data, setData] = useState({});
@@ -22,6 +23,11 @@ const Profile = () => {
     const repos = await fetch(profileRaw.repos_url);
     const reposRaw = await repos.json();
     console.log(reposRaw);
+
+    if (profileRaw) {
+      setData(profileRaw);
+      setRepos(reposRaw);
+    }
   };
   return (
     <div>
@@ -34,9 +40,11 @@ const Profile = () => {
       />
       <div className="btn">
         <button className="btnText" type="submit" onClick={submitHandler}>
+          <i className="bi-github" role="img" aria-label="GitHub"></i>
           Search
         </button>
       </div>
+      <Users data={data} repos={repos} />
     </div>
   );
 };
