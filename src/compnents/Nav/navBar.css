@@ -1,16 +1,17 @@
-.avatar {
+.avatarimg {
   object-fit: contain;
-  margin-top: 11px;
   margin-left: 12px;
+  margin: 5px;
 }
-.textBox {
-  margin-left: 8px;
+.text-Box {
+  margin-left: 5px;
 }
-.text {
+.text-1 {
   font-weight: bold;
   color: #f0f3f6;
+  margin-top: 10px;
 }
-.navbar {
+.nav {
   display: flex;
   background-color: #272b33;
 }

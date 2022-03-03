@@ -1,11 +1,8 @@
 .info {
-  padding-bottom: 15px;
-  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  margin-right: 70%;
 }
 .info > img {
   border-radius: 15%;

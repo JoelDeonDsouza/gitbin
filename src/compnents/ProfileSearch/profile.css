@@ -1,6 +1,6 @@
-.searchBar {
+.searchbar {
   width: 38%;
-  height: 35px;
+  height: 55px;
   border-radius: 50px;
   border-width: 0.4rem;
   border-block-color: #8241f9;
@@ -9,10 +9,11 @@
   color: #fff;
   text-align: center;
 }
-.btn {
+.bttn {
   margin-top: 20px;
+  margin-bottom: 40px;
 }
-.btnText {
+.btn-Text {
   width: 12%;
   height: 38px;
   font-size: large;

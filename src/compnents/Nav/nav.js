@@ -3,16 +3,16 @@ import "./navBar.css";
 
 const Nav = () => {
   return (
-    <nav className="navbar">
+    <nav className="nav">
       <img
-        className="avatar"
+        className="avatarimg"
         src="https://desktop.github.com/images/desktop-icon.svg"
         width="36.9"
         height="36.9"
         alt="ProfileImg"
       />
-      <div className="textBox">
-        <h5 className="text">GitBin</h5>
+      <div className="text-Box">
+        <h5 className="text-1">GitBin</h5>
       </div>
     </nav>
   );
