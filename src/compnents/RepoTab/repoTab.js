@@ -1,12 +1,21 @@
 import React from "react";
 import "./repoTab.css";
+import { useNavigate } from "react-router-dom";
 
-const RepoTab = ({ repos }) => {
+const RepoTab = ({ repos, data }) => {
+  const history = useNavigate();
+
+  const cickToViewCommits = (orgName, repoName) => () => {
+    history(`/repos/${orgName}/${repoName}/commits`);
+  };
   return (
     <div className="container">
       <div className="reposit">
         {repos.map((repos) => (
-          <div className="repo">
+          <div
+            className="repo"
+            onClick={cickToViewCommits(data.login, repos.name)}
+          >
             <div className="contain">
               <div>
                 <div className="repo_title">

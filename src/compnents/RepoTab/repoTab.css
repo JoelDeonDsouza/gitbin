@@ -1,5 +1,4 @@
 .reposit {
-  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -7,6 +6,7 @@
   flex-direction: row-reverse;
   align-content: center;
   align-items: stretch;
+  background-color: black;
 }
 
 .repo {

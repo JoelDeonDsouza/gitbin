@@ -43,7 +43,7 @@ const ProfileSearch = () => {
         </button>
       </div>
       {name && <Users data={data} repos={repos} />}
-      <RepoTab repos={repos} />
+      <RepoTab repos={repos} data={data} />
       {message && <p className="error">{message}</p>}
     </div>
   );
