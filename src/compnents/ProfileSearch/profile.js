@@ -24,7 +24,7 @@ const ProfileSearch = () => {
     const repos = await fetch(profileRaw.repos_url);
     const reposRaw = await repos.json();
     setRepos(reposRaw);
-    console.log(reposRaw);
+    // console.log(reposRaw);
   };
   const { name, message } = data;
   return (
