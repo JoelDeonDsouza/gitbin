@@ -6,8 +6,6 @@ import ProfileSearch from "./compnents/ProfileSearch/profile";
 import { Commits } from "./compnents/Commits/Commits";
 import { Route, Routes } from "react-router-dom";
 
-// console.log(ProfileSearch, "ProfileSearch");
-
 function App() {
   return (
     <div className="App">
