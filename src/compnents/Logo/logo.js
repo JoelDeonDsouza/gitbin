@@ -7,6 +7,7 @@ function Logo() {
       <img
         src="https://desktop.github.com/images/desktop-icon.svg"
         className="img"
+        alt="imgLogo"
       />
     </div>
   );

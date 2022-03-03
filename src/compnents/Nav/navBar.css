@@ -5,11 +5,13 @@
 }
 .text-Box {
   margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: 13px;
 }
 .text-1 {
   font-weight: bold;
   color: #f0f3f6;
-  margin-top: 10px;
+  text-decoration: none;
 }
 .nav {
   display: flex;

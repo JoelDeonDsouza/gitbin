@@ -19,6 +19,7 @@ const ProfileSearch = () => {
     const profile = await fetch(`https://api.github.com/users/${userName}`);
     const profileRaw = await profile.json();
     setData(profileRaw);
+    // console.log(profileRaw);
 
     //User Repo Data
     const repos = await fetch(profileRaw.repos_url);

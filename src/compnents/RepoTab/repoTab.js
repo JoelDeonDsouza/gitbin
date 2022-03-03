@@ -34,10 +34,6 @@ const RepoTab = ({ repos, data }) => {
                   <i className="fa fa-star pr-1" />
                   <span>{repos.forks_count}</span>
                 </div>
-                <div className="subitem">
-                  <i className="fa fa-code-fork pr-1" />
-                  <span>0</span>
-                </div>
               </div>
             </div>
           </div>

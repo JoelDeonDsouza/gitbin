@@ -12,7 +12,9 @@ const Nav = () => {
         alt="ProfileImg"
       />
       <div className="text-Box">
-        <h5 className="text-1">GitBin</h5>
+        <a href="/" className="text-1">
+          GitBin
+        </a>
       </div>
     </nav>
   );
