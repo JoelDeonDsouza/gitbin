@@ -5,6 +5,7 @@ import Logo from "./compnents/Logo/logo";
 import ProfileSearch from "./compnents/ProfileSearch/profile";
 import { Commits } from "./compnents/Commits/Commits";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./compnents/Footer/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           element={<Commits />}
         />
       </Routes>
+      <Footer />
     </div>
   );
 }
