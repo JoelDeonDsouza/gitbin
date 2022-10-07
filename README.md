@@ -31,4 +31,3 @@ GitBin app help user find there github account and repo with repo commits, User'
 - Dynamic component rendering.
 - Api from Github.
 
-```
