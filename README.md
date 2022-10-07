@@ -1,5 +1,10 @@
 Getting Started with GitBin web app.
 
+## Tech Stack
+
+**Client:** React, JavaScript.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -18,10 +23,12 @@ GitBin app help user find there github account and repo with repo commits, User'
 
 ## Usage/Examples
 
-```javascript
-Search user in the serach engine.
-User github repo with details will be displayed.
-Click repo to display a new page with repo commits.
-Once Commits view is fullfilled click the nav Logo/GitBin to return to homePage.
+## Features
+
+- Landing Page.
+- Home Section with Search bar.
+- Navigation throught the screens.
+- Dynamic component rendering.
+- Api from Github.
 
 ```
